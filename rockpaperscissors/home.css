@@ -1,0 +1,24 @@
+body {
+  background-image: linear-gradient(to right, lime, skyblue);
+}
+h1,
+h2,
+h4 {
+  text-align: center;
+}
+img {
+  border: 2px solid black;
+  opacity: 0.9;
+}
+img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+}
+
+#computer-options {
+  display: none;
+}
